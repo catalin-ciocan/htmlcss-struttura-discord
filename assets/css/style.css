@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  height: 300px;
+}
+
+
+.debug{
+  background-color: rgba(255, 0, 0, 0.2);
+  min-height: 50px;
+  border: 1px solid black;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+}
+
+header .Logo{
+  width: 15%;
+}
+
+header .Menu{
+  width: 70%;
+}
+
+header .Bottone{
+  width: 15%;
+}
+
+header .header-top{
+  height: 20%;
+}
+
+header .header-bottom{
+  height: 80%;
+}
